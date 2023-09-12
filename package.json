@@ -1,0 +1,32 @@
+{
+  "name": "module-import-writer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "fix": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.8"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanmaigenkou/module-import-writer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanmaigenkou/module-import-writer/issues"
+  },
+  "homepage": "https://github.com/sanmaigenkou/module-import-writer#readme",
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "eslint": "^8.49.0",
+    "minimist": "^1.2.8",
+    "prettier": "^3.0.3"
+  }
+}
