@@ -1,6 +1,6 @@
 {
   "name": "module-import-writer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -17,16 +17,16 @@
     "type": "git",
     "url": "git+https://github.com/sanmaigenkou/module-import-writer.git"
   },
-  "author": "",
+  "author": "sanmaigenkou",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sanmaigenkou/module-import-writer/issues"
   },
   "homepage": "https://github.com/sanmaigenkou/module-import-writer#readme",
   "dependencies": {
+    "commander": "^11.0.0",
     "enquirer": "^2.4.1",
     "eslint": "^8.49.0",
-    "minimist": "^1.2.8",
     "prettier": "^3.0.3"
   }
 }
