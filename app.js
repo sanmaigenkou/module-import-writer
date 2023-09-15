@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import ModuleImportWriter from "./lib/ModuleImportWriter.js";
 import { Command } from 'commander';
 const program = new Command();
