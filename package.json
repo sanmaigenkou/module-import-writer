@@ -1,11 +1,12 @@
 {
   "name": "module-import-writer",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "This is an npm module that allows you to select installed npm modules from the command line and bulk import them into the file you pass as an argument.",
   "main": "app.js",
   "scripts": {
     "fix": "prettier --write . && eslint --fix .",
-    "lint": "prettier --check . && eslint ."
+    "lint": "prettier --check . && eslint .",
+    "module-import-writer": "module-import-writer"
   },
   "devDependencies": {
     "eslint": "^8.43.0",
